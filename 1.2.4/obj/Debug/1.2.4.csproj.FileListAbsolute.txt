@@ -1,0 +1,6 @@
+C:\Users\1\source\repos\Task1\1.2.4\obj\Debug\1.2.4.csprojAssemblyReference.cache
+C:\Users\1\source\repos\Task1\1.2.4\bin\Debug\1.2.4.exe.config
+C:\Users\1\source\repos\Task1\1.2.4\bin\Debug\1.2.4.exe
+C:\Users\1\source\repos\Task1\1.2.4\bin\Debug\1.2.4.pdb
+C:\Users\1\source\repos\Task1\1.2.4\obj\Debug\1.2.4.exe
+C:\Users\1\source\repos\Task1\1.2.4\obj\Debug\1.2.4.pdb
