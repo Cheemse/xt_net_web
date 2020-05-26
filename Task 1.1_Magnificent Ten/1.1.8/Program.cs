@@ -8,9 +8,7 @@ namespace _1._1._8
 {
     class Program
     {
-
         const int l = 3;
-
         static void ArrPrint(int[,,] arr)
         {
             for (int i = 0; i < l; i++)

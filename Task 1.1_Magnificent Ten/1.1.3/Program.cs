@@ -9,8 +9,7 @@ namespace _1._1._3
     class Program
     {
         static void Main(string[] args)
-        {
-            
+        {            
             Console.WriteLine("Enter height of triangle");
             int n = int.Parse(Console.ReadLine());
 

@@ -12,6 +12,7 @@ namespace _1._2._4
         {
             Console.WriteLine("Enter your sentence");
             string s = Console.ReadLine();
+
             StringBuilder strb = new StringBuilder(s.Length);
             strb = strb.Append(s);
                    
@@ -21,7 +22,9 @@ namespace _1._2._4
                       if (strb[i] == '.' || strb[i] == '!' || strb[i] == '?')
                           strb[i + 2] = Char.ToUpper(strb[i + 2]);
                  }
+
             Console.WriteLine("Final version of sentence: " + strb);
+
             Console.ReadKey();
         }
     }

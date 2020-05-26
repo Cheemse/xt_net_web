@@ -11,6 +11,7 @@ namespace _1._2._1
         static void Main(string[] args)
         {
             Console.WriteLine("Enter your example sentence");
+
             string InpEx = Console.ReadLine();
             char[] spl = new char[] {'.', ',', ' ', ':', ';', '?', '!', '"'};
             string[] SplStr = InpEx.Split(spl, StringSplitOptions.RemoveEmptyEntries);

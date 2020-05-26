@@ -17,10 +17,10 @@ namespace _1._1._4
             {
                 for (int j = 0; j <= i; j++)
                 {
-                    for (int k = 0; k < n - j - 1; k++)
+                     for (int k = 0; k < n - j - 1; k++)
                         Console.Write(' ');
 
-                    for (int k = 0; k < j * 2 + 1; k++)
+                     for (int k = 0; k < j * 2 + 1; k++)
                         Console.Write('*');
 
                     Console.WriteLine();

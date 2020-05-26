@@ -16,8 +16,7 @@ namespace _1._1._10
                     Console.Write(arr[i,j] + " ");
         }
         static void Main(string[] args)
-        {
-            
+        {            
             int sum = 0;
             int[,] arr = new int[l,l];
             Random r = new Random();
@@ -32,8 +31,7 @@ namespace _1._1._10
                 for (int j = 0; j < l; j++)
                     if ( (i+j) % 2 == 0)
                         sum += arr[i, j];
-
-
+            
             Console.WriteLine("Sum = " + sum);
             Console.ReadKey();
         }

@@ -39,9 +39,7 @@ namespace _1._1._7
 
             Console.WriteLine("max = " + max);
             Console.WriteLine("min = " + min);
-            
-
-
+                        
             int temp;
             for (int i = 0; i < mas.Length - 1; i++)
             {

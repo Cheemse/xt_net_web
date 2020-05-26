@@ -15,7 +15,6 @@ namespace _1._1
 
             Console.WriteLine("Enter b");
             int b = int.Parse(Console.ReadLine());
-
             int c = a * b;
 
             Console.WriteLine("Area is " + c);

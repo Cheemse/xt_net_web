@@ -12,8 +12,7 @@ namespace _1._1._2
         {
             Console.WriteLine("Enter height of triangle");
             int height = int.Parse(Console.ReadLine());
-
-
+            
             for (int i = 0; i < height; i++)
             {
                 for (int j = 0; j <= i; j++)

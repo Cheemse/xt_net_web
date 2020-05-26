@@ -18,6 +18,7 @@ namespace _1._2._2
 
             for (int i = 0; i < s1.Length; i++)
                 if (s2.Contains(s1.Substring(i, 1)))
+
                     Console.Write(s1[i].ToString() + s1[i].ToString());
 
                 else
