@@ -19,7 +19,6 @@ namespace _1._2._3
             for (int i = 0; i < SplStr.Length; i++)
             {
                 if (char.IsLower(SplStr[i][0]))
-                    
                     sum++;
             }
 

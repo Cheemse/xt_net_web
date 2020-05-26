@@ -6,49 +6,55 @@ using System.Threading.Tasks;
 
 namespace _1._1._6
 {
+    
     class Program
     {
-       
-            [Flags]
-        enum font
+
+        [Flags]
+        private enum FontStyle
         {
-            None = 0,
             Bold = 1,
             Italic = 2,
-            Underline = 4
+            Underline = 4,
+            None = 0,
         }
 
-        static void Main(string[] args)
+        private static void Main()
         {
-            int state = 0;
-
+            FontStyle currentStyle = 0;
             while (true)
             {
-                Console.Write("Параметры надписи: ");
-
-                if (state == 0)
-                    Console.Write(font.None);
-                else
+                Console.WriteLine("Enter your preferred font style: \n \t 1: Bold \n \t 2: Italic \n \t 3: Underline");
+                if (!int.TryParse(Console.ReadLine(), out var input))
                 {
-                    if ((state & (int)font.Bold) != 0)
-                        Console.Write(font.Bold + " ");
-
-                    if ((state & (int)font.Italic) != 0)
-                        Console.Write(font.Italic + " ");
-
-                    if ((state & (int)font.Underline) != 0)
-                        Console.Write(font.Underline + " ");
+                    Console.WriteLine("Incorrect input");
+                    return;
                 }
 
-                Console.WriteLine();
-                Console.WriteLine("Введите:");
-                Console.WriteLine("\t1: bold");
-                Console.WriteLine("\t2: italic");
-                Console.WriteLine("\t3: underline");
+                switch (input)
+                {
+                    case 0:
+                        currentStyle = (FontStyle)0;
+                        Console.WriteLine($"Current font style is {currentStyle}");
+                        break;
+                    case 1:
+                        currentStyle ^= (FontStyle)1;
+                        Console.WriteLine($"Current font style is {currentStyle}");
+                        break;
+                    case 2:
+                        currentStyle ^= (FontStyle)2;
+                        Console.WriteLine($"Current font style is {currentStyle}");
+                        break;
+                    case 3:
+                        currentStyle ^= (FontStyle)4;
+                        Console.WriteLine($"Current font style is {currentStyle}");
+                        break;
 
-                int n = int.Parse(Console.ReadLine());
-                state ^= (1 << (n - 1));
+                    default:
+                        Console.WriteLine($"Current font style is None");
+                        break;
+                }
             }
-        }    
+        }
     }
 }
