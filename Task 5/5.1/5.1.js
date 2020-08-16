@@ -1,6 +1,6 @@
 'use strict';
 
-let str = 'У попа была собака, он ее любил, она съела кусок мяса он ее убил';
+let str = '';
 
 let charsToDelete = [];
 
