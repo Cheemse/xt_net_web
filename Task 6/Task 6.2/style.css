@@ -1,0 +1,46 @@
+.container{
+    background-color: #0690cf;
+    width: 420px;
+    border: 3px solid #0075b2;
+    margin: 0 auto;
+}
+header {
+    font-size: 27px;
+    color: white;
+    padding: 20px 10px 15px 15px;
+    border-bottom: 1px solid white;
+}
+ 
+ .email-div{
+    color: white;
+    margin-top: 20px;
+    padding: 0px 10px 0px 15px;
+    font-size: 16px;
+ }
+
+ .email{
+    margin: 0px 10px 20px 15px;
+    width: 351px;
+ }
+
+ .pass-label{
+     padding: 0px 115px 0px 15px;
+     color: white;
+
+ }
+ .confirm-label{
+     padding-left: 15px;
+     color: white;
+ }
+
+ .pass {
+
+    margin: 0px 5px 0px 15px;
+ }
+
+ .submit{
+     background-color: #ffdf7f;
+     border: none;
+     margin: 25px 0px 15px 15px;
+     padding: 5px 8px;
+ }
